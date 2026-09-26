@@ -1,7 +1,7 @@
 # IPL History Hub (2008 - 2026) 🏏
 
 Front-end web development project showcasing clean UI design and table structuring for IPL standings (2008-2026).
-A responsive, dark-themed web archive of IPL points tables and league stage standings spanning from the inaugural 2008 season to 2026. 
+A responsive, dark-themed web archive of IPL points tables and league stage standings from the inaugural 2008 season to 2026. 
 
 ## 🚀 Features
 * **Complete Historical Data:** Official league standings for 19 IPL seasons.
@@ -10,8 +10,8 @@ A responsive, dark-themed web archive of IPL points tables and league stage stan
 * **Visual Indicators:** Custom playoff qualification badges (`Q`) and color-coded Net Run Rate (NRR) formatting.
 
 ## 🛠️ Tech Stack
-* **HTML5:** Semantic structure and multi-page routing.
-* **CSS3:** Custom styling, hover effects, CSS Grid, and responsive layouts.
+* **HTML:** Semantic structure and multi-page routing.
+* **CSS:** Custom styling, hover effects, CSS Grid, and responsive layouts.
 
 ## 📂 Project Structure
 ```text
