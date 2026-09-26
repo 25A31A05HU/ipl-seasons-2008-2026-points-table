@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL 2008 Points Table</title>
+    <style>
+        /* Modern Dark Web Archetype */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f172a; 
+            color: #f1f5f9;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Back Button Style */
+        .back-btn {
+            align-self: flex-start;
+            margin-bottom: 20px;
+            background-color: #1e293b;
+            color: #38bdf8;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            border: 1px solid #334155;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover {
+            background-color: #38bdf8;
+            color: #0f172a;
+        }
+
+        h1 {
+            color: #ffffff;
+            margin-bottom: 5px;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .subtitle {
+            color: #94a3b8;
+            margin-bottom: 30px;
+            font-size: 0.95rem;
+            text-align: center;
+        }
+
+        .table-container {
+            width: 100%;
+            max-width: 900px;
+            background-color: #1e293b; 
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            overflow-x: auto; 
+            border: 1px solid #334155;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            min-width: 600px;
+        }
+
+        th {
+            background-color: #0f172a;
+            color: #38bdf8; 
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+            padding: 16px;
+            border-bottom: 2px solid #334155;
+        }
+
+        td {
+            padding: 14px 16px;
+            border-bottom: 1px solid #334155;
+            font-size: 0.95rem;
+        }
+
+        .playoff-row { background-color: rgba(56, 189, 248, 0.05); }
+        .q-badge {
+            background-color: #0284c7;
+            color: #ffffff;
+            font-size: 0.75rem;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-left: 8px;
+        }
+
+        tr:hover { background-color: #2d3748; }
+        .text-center { text-align: center; }
+        .bold { font-weight: bold; color: #ffffff; }
+        .nrr-positive { color: #4ade80; }
+        .nrr-negative { color: #f87171; }
+    </style>
+</head>
+<body>
+
+    <!-- Back to Hub Button -->
+    <a href="ipl.html" class="back-btn">← Back to IPL Hub</a>
+
+    <h1>DLF IPL 2008 Standings</h1>
+    <p class="subtitle">Final standings of the inaugural 2008 League stage</p>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th class="text-center">Pos</th>
+                    <th>Team</th>
+                    <th class="text-center">Pld</th>
+                    <th class="text-center">W</th>
+                    <th class="text-center">L</th>
+                    <th class="text-center">NR</th>
+                    <th class="text-center">Pts</th>
+                    <th class="text-center">NRR</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="playoff-row">
+                    <td class="text-center bold">1</td>
+                    <td class="bold">Rajasthan Royals (C) <span class="q-badge">Q</span></td>
+                    <td class="text-center">14</td>
+                    <td class="text-center">11</td>
+                    <td class="text-center">3</td>
+                    <td class="text-center">0</td>
+                    <td class="text-center bold">22</td>
+                    <td class="text-center nrr-positive">+0.632</td>
+                </tr>
+                <tr class="playoff-row">
+                    <td class="text-center bold">2</td>
+                    <td class="bold">Kings XI Punjab <span class="q-badge">Q</span></td>
+                    <td class="text-center">14</td>
+                    <td class="text-center">10</td>
+                    <td class="text-center">4</td>
+                    <td class="text-center">0</td>
+                    <td class="text-center bold">20</td>
+                    <td class="text-center nrr-positive">+0.509</td>
+                </tr>
+                <tr class="playoff-row">
+                    <td class="text-center bold">3</td>
+                    <td class="bold">Chennai Super Kings <span class="q-badge">Q</span></td>
+                    <td class="text-center">14</td>
+                    <td class="text-center">8</td>
+                    <td class="text-center">6</td>
+                    <td class="text-center">0</td>
+                    <td class="text-center bold">16</td>
+                    <td class="text-center nrr-negative">-0.192</td>
+                </tr>
+                <tr class="playoff-row">
+                    <td class="text-center bold">4</td>
+                    <td class="bold">Delhi Daredevils <span class="q-badge">Q</span></td>
+                    <td class="text-center">14</td>
+                    <td class="text-center">7</td>
+                    <td class="text-center">6</td>
+                    <td class="text-center">1</td>
+                    <td class="text-center bold">15</td>
+                    <td class="text-center nrr-positive">+0.342</td>
+                </tr>
+                <tr>
+                    <td class="text-center">5</td>
+                    <td>Mumbai Indians</td>
+                    <td class="text-center">14</td>
+                    <td class="text-center">7</td>
+                    <td class="text-center">7</td>
+                    <td class="text-center">0</td>
+                    <td class="text-center bold">14</td>
+                    <td class="text-center nrr-positive">+0.570</td>
+                </tr>
+                <tr>
+                    <td class="text-center">6</td>
+                    <td>Kolkata Knight Riders</td>
+                    <td class="text-center">14</td>
+                    <td class="text-center">6</td>
+                    <td class="text-center">7</td>
+                    <td class="text-center">1</td>
+                    <td class="text-center bold">13</td>
+                    <td class="text-center nrr-negative">-0.147</td>
+                </tr>
+                <tr>
+                    <td class="text-center">7</td>
+                    <td>Royal Challengers Bangalore</td>
+                    <td class="text-center">14</td>
+                    <td class="text-center">4</td>
+                    <td class="text-center">10</td>
+                    <td class="text-center">0</td>
+                    <td class="text-center bold">8</td>
+                    <td class="text-center nrr-negative">-1.161</td>
+                </tr>
+                <tr>
+                    <td class="text-center">8</td>
+                    <td>Deccan Chargers</td>
+                    <td class="text-center">14</td>
+                    <td class="text-center">2</td>
+                    <td class="text-center">12</td>
+                    <td class="text-center">0</td>
+                    <td class="text-center bold">4</td>
+                    <td class="text-center nrr-negative">-0.467</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
